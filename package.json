@@ -1,0 +1,32 @@
+{
+  "name": "data-cube-hull",
+  "version": "0.1.0",
+  "description": "Concave or convex hull of 2D points stored in a Data-Cube.",
+  "main": "dist/hull.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjmcn/data-cube-hull.git"
+  },
+  "author": "Graham McNeill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gjmcn/data-cube-hull/issues"
+  },
+  "homepage": "https://github.com/gjmcn/data-cube-hull#readme",
+  "devDependencies": {
+    "rollup": "^0.59.1",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  },
+  "peerDependencies": {
+    "data-cube": "^0.1.0"
+  },
+  "dependencies": {
+    "concaveman": "^1.1.1"
+  }
+}
