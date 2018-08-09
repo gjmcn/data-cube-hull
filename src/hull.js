@@ -6,9 +6,7 @@
   } = Array.prototype._helper;
   
   const hulljs = require('hull.js');
-  
-  //console.log(typeof hulljs);
-  
+
   addArrayMethod('hull', function(concav) {
     if ( !this._data_cube ||
          this._s[1] !== 2 ||
