@@ -1,5 +1,5 @@
 {
-  "name": "data-cube-hull",
+  "name": "@gjmcn/data-cube-hull",
   "version": "0.1.0",
   "description": "Concave or convex hull of 2D points stored in a Data-Cube.",
   "main": "dist/hull.js",
@@ -24,7 +24,7 @@
     "rollup-plugin-uglify": "^3.0.0"
   },
   "peerDependencies": {
-    "data-cube": "^0.1.0"
+    "@gjmcn/data-cube": "^0.1.0"
   },
   "dependencies": {
     "hull.js": "^0.2.10"
