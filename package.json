@@ -1,7 +1,7 @@
 {
   "name": "@gjmcn/data-cube-hull",
   "version": "0.1.0",
-  "description": "Concave or convex hull of 2D points stored in a Data-Cube.",
+  "description": "Concave/convex hull method for Data-Cube.",
   "main": "dist/hull.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
