@@ -1,5 +1,5 @@
-{
-  'use strict';
+(() => {
+	'use strict';
 
   const {
     assert, def, addArrayMethod
@@ -17,4 +17,4 @@
     return hulljs(this.arAr(), concav).matrix();
   });
   
-}
+})();
